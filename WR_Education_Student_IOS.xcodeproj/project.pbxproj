@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52044CDF1D6A9E6500556FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52044CDE1D6A9E6500556FCC /* main.m */; };
+		52044CE21D6A9E6500556FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52044CE11D6A9E6500556FCC /* AppDelegate.m */; };
+		52044CE51D6A9E6500556FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52044CE41D6A9E6500556FCC /* ViewController.m */; };
+		52044CE81D6A9E6500556FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52044CE61D6A9E6500556FCC /* Main.storyboard */; };
+		52044CEA1D6A9E6500556FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52044CE91D6A9E6500556FCC /* Assets.xcassets */; };
+		52044CED1D6A9E6500556FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52044CEB1D6A9E6500556FCC /* LaunchScreen.storyboard */; };
+		52044CF81D6A9E6500556FCC /* WR_Education_Student_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52044CF71D6A9E6500556FCC /* WR_Education_Student_IOSTests.m */; };
+		52044D031D6A9E6500556FCC /* WR_Education_Student_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52044D021D6A9E6500556FCC /* WR_Education_Student_IOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52044CF41D6A9E6500556FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52044CD21D6A9E6500556FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52044CD91D6A9E6500556FCC;
+			remoteInfo = WR_Education_Student_IOS;
+		};
+		52044CFF1D6A9E6500556FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52044CD21D6A9E6500556FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52044CD91D6A9E6500556FCC;
+			remoteInfo = WR_Education_Student_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52044CDA1D6A9E6500556FCC /* WR_Education_Student_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WR_Education_Student_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52044CDE1D6A9E6500556FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52044CE01D6A9E6500556FCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52044CE11D6A9E6500556FCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52044CE31D6A9E6500556FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52044CE41D6A9E6500556FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52044CE71D6A9E6500556FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52044CE91D6A9E6500556FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52044CEC1D6A9E6500556FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52044CEE1D6A9E6500556FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52044CF31D6A9E6500556FCC /* WR_Education_Student_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WR_Education_Student_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52044CF71D6A9E6500556FCC /* WR_Education_Student_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WR_Education_Student_IOSTests.m; sourceTree = "<group>"; };
+		52044CF91D6A9E6500556FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52044CFE1D6A9E6500556FCC /* WR_Education_Student_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WR_Education_Student_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52044D021D6A9E6500556FCC /* WR_Education_Student_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WR_Education_Student_IOSUITests.m; sourceTree = "<group>"; };
+		52044D041D6A9E6500556FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52044CD71D6A9E6500556FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CF01D6A9E6500556FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CFB1D6A9E6500556FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52044CD11D6A9E6500556FCC = {
+			isa = PBXGroup;
+			children = (
+				52044CDC1D6A9E6500556FCC /* WR_Education_Student_IOS */,
+				52044CF61D6A9E6500556FCC /* WR_Education_Student_IOSTests */,
+				52044D011D6A9E6500556FCC /* WR_Education_Student_IOSUITests */,
+				52044CDB1D6A9E6500556FCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52044CDB1D6A9E6500556FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52044CDA1D6A9E6500556FCC /* WR_Education_Student_IOS.app */,
+				52044CF31D6A9E6500556FCC /* WR_Education_Student_IOSTests.xctest */,
+				52044CFE1D6A9E6500556FCC /* WR_Education_Student_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52044CDC1D6A9E6500556FCC /* WR_Education_Student_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				52044CE01D6A9E6500556FCC /* AppDelegate.h */,
+				52044CE11D6A9E6500556FCC /* AppDelegate.m */,
+				52044CE31D6A9E6500556FCC /* ViewController.h */,
+				52044CE41D6A9E6500556FCC /* ViewController.m */,
+				52044CE61D6A9E6500556FCC /* Main.storyboard */,
+				52044CE91D6A9E6500556FCC /* Assets.xcassets */,
+				52044CEB1D6A9E6500556FCC /* LaunchScreen.storyboard */,
+				52044CEE1D6A9E6500556FCC /* Info.plist */,
+				52044CDD1D6A9E6500556FCC /* Supporting Files */,
+			);
+			path = WR_Education_Student_IOS;
+			sourceTree = "<group>";
+		};
+		52044CDD1D6A9E6500556FCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52044CDE1D6A9E6500556FCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52044CF61D6A9E6500556FCC /* WR_Education_Student_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				52044CF71D6A9E6500556FCC /* WR_Education_Student_IOSTests.m */,
+				52044CF91D6A9E6500556FCC /* Info.plist */,
+			);
+			path = WR_Education_Student_IOSTests;
+			sourceTree = "<group>";
+		};
+		52044D011D6A9E6500556FCC /* WR_Education_Student_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52044D021D6A9E6500556FCC /* WR_Education_Student_IOSUITests.m */,
+				52044D041D6A9E6500556FCC /* Info.plist */,
+			);
+			path = WR_Education_Student_IOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52044CD91D6A9E6500556FCC /* WR_Education_Student_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52044D071D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOS" */;
+			buildPhases = (
+				52044CD61D6A9E6500556FCC /* Sources */,
+				52044CD71D6A9E6500556FCC /* Frameworks */,
+				52044CD81D6A9E6500556FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WR_Education_Student_IOS;
+			productName = WR_Education_Student_IOS;
+			productReference = 52044CDA1D6A9E6500556FCC /* WR_Education_Student_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52044CF21D6A9E6500556FCC /* WR_Education_Student_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52044D0A1D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOSTests" */;
+			buildPhases = (
+				52044CEF1D6A9E6500556FCC /* Sources */,
+				52044CF01D6A9E6500556FCC /* Frameworks */,
+				52044CF11D6A9E6500556FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52044CF51D6A9E6500556FCC /* PBXTargetDependency */,
+			);
+			name = WR_Education_Student_IOSTests;
+			productName = WR_Education_Student_IOSTests;
+			productReference = 52044CF31D6A9E6500556FCC /* WR_Education_Student_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52044CFD1D6A9E6500556FCC /* WR_Education_Student_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52044D0D1D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOSUITests" */;
+			buildPhases = (
+				52044CFA1D6A9E6500556FCC /* Sources */,
+				52044CFB1D6A9E6500556FCC /* Frameworks */,
+				52044CFC1D6A9E6500556FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52044D001D6A9E6500556FCC /* PBXTargetDependency */,
+			);
+			name = WR_Education_Student_IOSUITests;
+			productName = WR_Education_Student_IOSUITests;
+			productReference = 52044CFE1D6A9E6500556FCC /* WR_Education_Student_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52044CD21D6A9E6500556FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "waycube-yangyubo";
+				TargetAttributes = {
+					52044CD91D6A9E6500556FCC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52044CF21D6A9E6500556FCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52044CD91D6A9E6500556FCC;
+					};
+					52044CFD1D6A9E6500556FCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52044CD91D6A9E6500556FCC;
+					};
+				};
+			};
+			buildConfigurationList = 52044CD51D6A9E6500556FCC /* Build configuration list for PBXProject "WR_Education_Student_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52044CD11D6A9E6500556FCC;
+			productRefGroup = 52044CDB1D6A9E6500556FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52044CD91D6A9E6500556FCC /* WR_Education_Student_IOS */,
+				52044CF21D6A9E6500556FCC /* WR_Education_Student_IOSTests */,
+				52044CFD1D6A9E6500556FCC /* WR_Education_Student_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52044CD81D6A9E6500556FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52044CED1D6A9E6500556FCC /* LaunchScreen.storyboard in Resources */,
+				52044CEA1D6A9E6500556FCC /* Assets.xcassets in Resources */,
+				52044CE81D6A9E6500556FCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CF11D6A9E6500556FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CFC1D6A9E6500556FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52044CD61D6A9E6500556FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52044CE51D6A9E6500556FCC /* ViewController.m in Sources */,
+				52044CE21D6A9E6500556FCC /* AppDelegate.m in Sources */,
+				52044CDF1D6A9E6500556FCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CEF1D6A9E6500556FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52044CF81D6A9E6500556FCC /* WR_Education_Student_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52044CFA1D6A9E6500556FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52044D031D6A9E6500556FCC /* WR_Education_Student_IOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52044CF51D6A9E6500556FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52044CD91D6A9E6500556FCC /* WR_Education_Student_IOS */;
+			targetProxy = 52044CF41D6A9E6500556FCC /* PBXContainerItemProxy */;
+		};
+		52044D001D6A9E6500556FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52044CD91D6A9E6500556FCC /* WR_Education_Student_IOS */;
+			targetProxy = 52044CFF1D6A9E6500556FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52044CE61D6A9E6500556FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52044CE71D6A9E6500556FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52044CEB1D6A9E6500556FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52044CEC1D6A9E6500556FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52044D051D6A9E6500556FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52044D061D6A9E6500556FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52044D081D6A9E6500556FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WR_Education_Student_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52044D091D6A9E6500556FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WR_Education_Student_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52044D0B1D6A9E6500556FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WR_Education_Student_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WR_Education_Student_IOS.app/WR_Education_Student_IOS";
+			};
+			name = Debug;
+		};
+		52044D0C1D6A9E6500556FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WR_Education_Student_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WR_Education_Student_IOS.app/WR_Education_Student_IOS";
+			};
+			name = Release;
+		};
+		52044D0E1D6A9E6500556FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WR_Education_Student_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WR_Education_Student_IOS;
+			};
+			name = Debug;
+		};
+		52044D0F1D6A9E6500556FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WR_Education_Student_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waycube..WR-Education-Student-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WR_Education_Student_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52044CD51D6A9E6500556FCC /* Build configuration list for PBXProject "WR_Education_Student_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52044D051D6A9E6500556FCC /* Debug */,
+				52044D061D6A9E6500556FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52044D071D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52044D081D6A9E6500556FCC /* Debug */,
+				52044D091D6A9E6500556FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52044D0A1D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52044D0B1D6A9E6500556FCC /* Debug */,
+				52044D0C1D6A9E6500556FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52044D0D1D6A9E6500556FCC /* Build configuration list for PBXNativeTarget "WR_Education_Student_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52044D0E1D6A9E6500556FCC /* Debug */,
+				52044D0F1D6A9E6500556FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52044CD21D6A9E6500556FCC /* Project object */;
+}
